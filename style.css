@@ -1,0 +1,123 @@
+body {
+  background: #0d1424;
+  color: #e8ecf3;
+  min-height: 100vh;
+}
+
+.navbar {
+  border-bottom: 1px solid #1c2740;
+}
+
+.card {
+  background: #131b30;
+  border: 1px solid #243049;
+  color: #e8ecf3;
+}
+
+.form-control, .form-select {
+  background: #0d1424;
+  border: 1px solid #2a3756;
+  color: #e8ecf3;
+}
+.form-control:focus, .form-select:focus {
+  background: #0d1424;
+  color: #fff;
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+.form-control::placeholder { color: #6c7a99; }
+
+.table {
+  color: #e8ecf3;
+}
+.table > :not(caption) > * > * {
+  background-color: transparent;
+  color: inherit;
+  border-bottom-color: #243049;
+}
+
+.text-muted { color: #8a97b8 !important; }
+
+/* Microphone button */
+.mic-btn {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #ffc107;
+  background: #131b30;
+  color: #ffc107;
+  font-size: 64px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 0 rgba(255, 193, 7, 0.6);
+}
+.mic-btn:hover {
+  background: #1c2740;
+  transform: scale(1.05);
+}
+.mic-btn.listening {
+  background: #ffc107;
+  color: #0d1424;
+  animation: pulse 1.4s infinite;
+}
+.mic-btn.speaking {
+  background: #198754;
+  color: #fff;
+  border-color: #198754;
+}
+@keyframes pulse {
+  0%   { box-shadow: 0 0 0 0    rgba(255, 193, 7, 0.7); }
+  70%  { box-shadow: 0 0 0 30px rgba(255, 193, 7, 0); }
+  100% { box-shadow: 0 0 0 0    rgba(255, 193, 7, 0); }
+}
+
+/* Queue items */
+.queue-item {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #1c2740;
+  border: 1px solid #2a3756;
+  font-size: 0.9rem;
+}
+.queue-item.current {
+  background: #ffc107;
+  color: #0d1424;
+  font-weight: bold;
+  border-color: #ffc107;
+}
+.queue-item.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Read-aloud buttons */
+.btn-outline-info {
+  color: #4dd9f5;
+  border-color: #4dd9f5;
+}
+.btn-outline-info:hover, .btn-info {
+  background: #4dd9f5;
+  border-color: #4dd9f5;
+  color: #0d1424;
+}
+.btn-info {
+  animation: readPulse 1.6s infinite;
+}
+@keyframes readPulse {
+  0%   { box-shadow: 0 0 0 0 rgba(77, 217, 245, 0.6); }
+  70%  { box-shadow: 0 0 0 10px rgba(77, 217, 245, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(77, 217, 245, 0); }
+}
+
+/* Product cards */
+.product-card {
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+.product-card:hover {
+  transform: translateY(-3px);
+  border-color: #ffc107;
+}
+.product-card.in-cart {
+  border-color: #198754;
+}

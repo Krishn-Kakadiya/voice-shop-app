@@ -1,0 +1,16 @@
+{
+  "name": "voice-shop-app",
+  "version": "1.0.0",
+  "description": "EchoAisle - Voice-guided in-store navigation app for visually impaired shoppers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.11.0",
+    "dotenv": "^16.4.5"
+  }
+}

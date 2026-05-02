@@ -1,0 +1,161 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Soap",
+      "category": "Personal Care",
+      "aisle": "Personal Care - Aisle 3",
+      "keywords": ["soap", "hand soap", "bar soap", "body soap", "shop", "sop", "soaps"],
+      "steps": [
+        { "instruction": "Walk forward 8 steps", "landmark": "from the main entrance" },
+        { "instruction": "Turn right at the first crossing", "landmark": "at the pharmacy counter on your right" },
+        { "instruction": "Walk forward 6 steps", "landmark": "past the hair care section" },
+        { "instruction": "Soap is on the left shelf at waist height", "landmark": "next to the hand sanitizer display" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Shampoo",
+      "category": "Personal Care",
+      "aisle": "Personal Care - Aisle 3",
+      "keywords": ["shampoo", "hair wash", "conditioner", "sham poo", "shampo"],
+      "steps": [
+        { "instruction": "Walk forward 8 steps", "landmark": "from the main entrance" },
+        { "instruction": "Turn right at the first crossing", "landmark": "at the pharmacy counter on your right" },
+        { "instruction": "Walk forward 10 steps", "landmark": "past the soap and hand sanitizer section" },
+        { "instruction": "Shampoo bottles are on the right shelf at chest height", "landmark": "next to the conditioner bottles" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Toothpaste",
+      "category": "Personal Care",
+      "aisle": "Personal Care - Aisle 3",
+      "keywords": ["toothpaste", "paste", "tooth", "brush"],
+      "steps": [
+        { "instruction": "Walk forward 8 steps", "landmark": "from the main entrance" },
+        { "instruction": "Turn right at the first crossing", "landmark": "at the pharmacy counter on your right" },
+        { "instruction": "Walk forward 4 steps", "landmark": "past the dental floss rack" },
+        { "instruction": "Toothpaste is on the left shelf at eye level", "landmark": "above the toothbrush display" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bread",
+      "category": "Bakery",
+      "aisle": "Bakery - Aisle 1",
+      "keywords": ["bread", "loaf", "bun", "toast", "bred", "brad", "breads"],
+      "steps": [
+        { "instruction": "Walk forward 4 steps", "landmark": "from the main entrance" },
+        { "instruction": "Turn left", "landmark": "at the bakery sign overhead" },
+        { "instruction": "Walk forward 6 steps", "landmark": "along the fresh bread aisle" },
+        { "instruction": "Bread is in the open basket on your right", "landmark": "next to the pastries counter" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Milk",
+      "category": "Dairy",
+      "aisle": "Dairy - Aisle 5",
+      "keywords": ["milk", "dairy milk", "cow milk", "milt", "milks"],
+      "steps": [
+        { "instruction": "Walk forward 8 steps", "landmark": "from the main entrance" },
+        { "instruction": "Continue straight 12 more steps", "landmark": "past the snacks section on your left" },
+        { "instruction": "Turn left at the cold section", "landmark": "you will hear the refrigeration units humming" },
+        { "instruction": "Milk cartons are in the refrigerator on your right", "landmark": "beside the juice fridges" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bottled Water",
+      "category": "Beverages",
+      "aisle": "Beverages - Aisle 4",
+      "keywords": ["water", "bottle", "drinking water", "mineral water"],
+      "steps": [
+        { "instruction": "Walk forward 8 steps", "landmark": "from the main entrance" },
+        { "instruction": "Continue straight 6 more steps", "landmark": "past the checkout counters on your left" },
+        { "instruction": "Turn right", "landmark": "at the beverages sign overhead" },
+        { "instruction": "Water bottles are stacked on the left", "landmark": "below the juice shelf" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Chips",
+      "category": "Snacks",
+      "aisle": "Snacks - Aisle 6",
+      "keywords": ["chips", "crisps", "snack", "wafers"],
+      "steps": [
+        { "instruction": "Walk forward 8 steps", "landmark": "from the main entrance" },
+        { "instruction": "Continue straight 16 more steps", "landmark": "past the beverages aisle on your right" },
+        { "instruction": "Turn right", "landmark": "at the snacks sign overhead" },
+        { "instruction": "Chips are on the middle shelves on both sides", "landmark": "you will notice the brightly coloured bags" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Frozen Pizza",
+      "category": "Frozen",
+      "aisle": "Frozen - Aisle 7",
+      "keywords": ["pizza", "frozen pizza", "frozen food"],
+      "steps": [
+        { "instruction": "Walk forward 8 steps", "landmark": "from the main entrance" },
+        { "instruction": "Continue straight 18 more steps", "landmark": "past the snacks and beverages sections" },
+        { "instruction": "Turn left into the freezer aisle", "landmark": "at the frozen foods sign, the air will feel cold" },
+        { "instruction": "Pizza is in the third freezer on your right", "landmark": "between the frozen vegetables and ice cream" }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Coffee",
+      "category": "Beverages",
+      "aisle": "Beverages - Aisle 4",
+      "keywords": ["coffee", "instant coffee", "coffee powder"],
+      "steps": [
+        { "instruction": "Walk forward 8 steps", "landmark": "from the main entrance" },
+        { "instruction": "Continue straight 6 more steps", "landmark": "past the checkout counters on your left" },
+        { "instruction": "Turn right", "landmark": "at the beverages sign overhead" },
+        { "instruction": "Coffee jars are on the right shelf at chest height", "landmark": "above the tea and cocoa section" }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Detergent",
+      "category": "Household",
+      "aisle": "Household - Aisle 8",
+      "keywords": ["detergent", "washing powder", "laundry", "soap powder"],
+      "steps": [
+        { "instruction": "Walk forward 8 steps", "landmark": "from the main entrance" },
+        { "instruction": "Continue straight 20 more steps", "landmark": "past the frozen food section" },
+        { "instruction": "Turn left", "landmark": "at the household products sign overhead" },
+        { "instruction": "Detergent boxes are on the bottom shelf", "landmark": "below the fabric softeners" }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Eggs",
+      "category": "Dairy",
+      "aisle": "Dairy - Aisle 5",
+      "keywords": ["eggs", "egg", "dozen eggs", "ex", "egs"],
+      "steps": [
+        { "instruction": "Walk forward 8 steps", "landmark": "from the main entrance" },
+        { "instruction": "Continue straight 12 more steps", "landmark": "past the snacks section on your left" },
+        { "instruction": "Turn left at the cold section", "landmark": "you will hear the refrigeration units humming" },
+        { "instruction": "Egg trays are on the shelf next to the milk", "landmark": "in the dairy section, refrigerator on your left" }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Bananas",
+      "category": "Groceries",
+      "aisle": "Produce - Aisle 2",
+      "keywords": ["banana", "bananas", "fruit"],
+      "steps": [
+        { "instruction": "Walk forward 4 steps", "landmark": "from the main entrance" },
+        { "instruction": "Turn right", "landmark": "at the produce section sign" },
+        { "instruction": "Walk forward 4 steps", "landmark": "along the fresh produce display" },
+        { "instruction": "Bananas are in the open crate on your left", "landmark": "next to the apples and oranges" }
+      ]
+    }
+  ],
+  "nextId": 13
+}
